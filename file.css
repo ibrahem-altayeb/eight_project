@@ -114,7 +114,7 @@ font-size: 17px;
 
 @media(min-width:1233px){
   .footer{
-    margin-top: 170px;
+    margin-top: 140px;
     }
     .footer .card .box:nth-of-type(2){
       transform: translateY(-15px);
@@ -132,7 +132,6 @@ font-size: 17px;
   .footer .card{
     grid-template-columns: repeat(auto-fill , minmax(300px , 1fr));
     gap: 10px;
-    margin-top: 160px;
   }
 }
 @media(min-width:1422px){
