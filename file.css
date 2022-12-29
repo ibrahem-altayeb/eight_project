@@ -11,18 +11,11 @@ body{
   Font-size: 15px;
   font-family: 'League Spartan', sans-serif;
 }
-@media(min-width:1500px){
+@media(min-width:1486px){
   body{
     background-image: url(./images/bg-pattern-top-desktop.svg) , url(./images/bg-pattern-bottom-desktop.svg);
     background-repeat: no-repeat , no-repeat;
-    background-position: right 60vw  bottom 60vh , left 50vw top 50vh;
-  }
-}
-@media(max-width:767px){
-  body{
-    background-image: url(./images/bg-pattern-top-mobile.svg) , url(./images/bg-pattern-bottom-mobile.svg);
-    background-repeat: no-repeat , no-repeat;
-    background-position: right 50vw  bottom 50vh , left 50vw top 50vh;
+    background-position: right 60vw  bottom 60vh , left 40vw top 40vh;
   }
 }
 *{
@@ -32,7 +25,7 @@ body{
 }
 @media(min-width:668px){
 .page{
-  padding: 110px 250px 100px;
+  padding: 110px 170px 100px;
   }
 }
 @media(max-width:767px){
@@ -77,9 +70,9 @@ font-size: 17px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 50px 15px 30px;
+  padding: 15px 30px 15px 30px;
   background-color: var(--Light-Grayish-Magenta);
-  /* min-width: 430px; */
+  min-width: 430px;
 }
 @media(max-width:1232px){
   .page .body .rated{
@@ -130,15 +123,20 @@ font-size: 17px;
       }
 }
 .footer .card {
-display: grid;
-grid-template-columns: repeat(auto-fill , minmax(400px , 1fr));
-gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill , minmax(350px , 1fr));
+  gap: 20px;
 }
 @media(max-width:1232px){
   .footer .card{
     grid-template-columns: repeat(auto-fill , minmax(200px , 1fr));
     gap: 10px;
     margin-top: 160px;
+  }
+}
+@media(min-width:1488px){
+  .footer .card {
+    grid-template-columns: repeat(auto-fill , minmax(450px , 1fr));
   }
 }
 .footer .card .box{
