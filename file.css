@@ -124,6 +124,11 @@ font-size: 17px;
       transform: translateY(-30px);
       }
 }
+@media(max-width:767px){
+  .footer {
+    margin-top: 160px;
+  }
+}
 .footer .card {
   display: grid;
   grid-template-columns: repeat(auto-fill , minmax(250px , 1fr));
