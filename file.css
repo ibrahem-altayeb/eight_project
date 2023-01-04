@@ -124,7 +124,7 @@ font-size: 17px;
       transform: translateY(-30px);
       }
 }
-@media(max-width:767px){
+@media(max-width: 1232px){
   .footer {
     margin-top: 160px;
   }
