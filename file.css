@@ -25,7 +25,7 @@ body{
 }
 @media(min-width:668px){
 .page{
-  padding: 110px 170px 100px;
+  padding: 117px 164px 100px 164px;
   }
 }
 @media(max-width:767px){
@@ -77,11 +77,11 @@ font-size: 17px;
 }
 .page .body .rated .all{
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 15px 30px 15px 30px;
   background-color: var(--Light-Grayish-Magenta);
-  max-width: 430px;
+  min-width: 430px;
+  border-radius: 10px;
 }
 @media(max-width:1232px){
   .page .body .rated{
@@ -97,17 +97,17 @@ font-size: 17px;
 
 @media(min-width:768px){
   .page .body .rated .all.one{
-    transform: translate(-50px , -20px);
+    transform: translate(-90px , -32px);
   }
   .page .body .rated .all.tow{
-    transform: translate(-30px, -11px);
+    transform: translate(-45px, -16px);
 }
 }
 .page .body .rated .all .images img{
   margin-right: 5px;
 }
 .page .body .rated .all .test{
-  margin-right: 22px;
+  margin-left: 20px;
   font-size: 17px;
   color: var(--Very-Dark-Magenta);
   font-weight: bold;
@@ -115,13 +115,13 @@ font-size: 17px;
 
 @media(min-width:1233px){
   .footer{
-    margin-top: 90px;
+    margin-top: 107px;
     }
     .footer .card .box:nth-of-type(2){
-      transform: translateY(-15px);
+      transform: translateY(-13px);
       }
     .footer .card .box:first-child{
-      transform: translateY(-30px);
+      transform: translateY(-26px);
       }
 }
 @media(max-width: 1232px){
